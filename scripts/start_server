@@ -1,3 +1,6 @@
 #!/bin/bash
-service httpd start
 
+##Below command will start the apache##
+service httpd start
+##Below Command will make sure the service is up after reboot/shutdown##
+chkconfig httpd on
